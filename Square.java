@@ -4,7 +4,7 @@ public class Square extends Shape{
 
     private double lato;
     
-    Square(String colore, double raggio) {
+    Square(String colore, double lato) {
         super(colore);
         this.lato = lato;
     }
