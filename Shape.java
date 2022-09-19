@@ -10,4 +10,8 @@ class Shape{
     public String getColore(){
         return this.colore;
     }
+
+    public String toString(){
+        return ("colore: " + colore);
+    }
 }
