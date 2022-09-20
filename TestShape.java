@@ -33,5 +33,7 @@ public class TestShape {
 
         System.out.println(circleUtils.getSumOfArea());
         System.out.println(circleUtils.getSumOfAreaImperative());
+        System.out.println(circleUtils.getLargestAreaImperative());
+        System.out.println(circleUtils.getLargestArea());
     }
 }
