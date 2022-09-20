@@ -1,4 +1,3 @@
 # Lynx-1
-rectangle - Rebecca
-Bryan - Square  
-andrei - Main
+## Prima esercitazione Lynx su figure geometriche
+
