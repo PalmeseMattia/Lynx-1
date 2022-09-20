@@ -31,6 +31,7 @@ public class TestShape {
         System.out.println(quadrato1.toString() + "\n");
         System.out.println(quadrato2.toString() + "\n");
 
-        circleUtils.getShapes();
+        System.out.println(circleUtils.getSumOfArea());
+        System.out.println(circleUtils.getSumOfAreaImperative());
     }
 }
