@@ -1,6 +1,6 @@
 package Shape;
 
-class Shape{
+abstract class Shape{
     private String colore;
 
     Shape(String colore){
@@ -10,6 +10,8 @@ class Shape{
     public String getColore(){
         return this.colore;
     }
+
+    abstract public double getArea();
 
     public String toString(){
         return ("colore: " + colore);

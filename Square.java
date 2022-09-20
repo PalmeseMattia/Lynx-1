@@ -1,18 +1,21 @@
 package Shape;
 
-public class Square extends Shape{
+public class Square extends Rectangle{
 
     private double lato;
     
-    Square(String colore, double lato) {
-        super(colore);
+    Square(String colore, double lato1, double lato2) {
+        super(colore, lato1, lato2);
          //controllo altezza
-         if(lato < 0) {  
+        if(lato1 <= 0) {  
             throw new ArithmeticException("lato non può essere negativo");    
         }
+        else if(lato1 != lato2){
+            throw new ArithmeticException("Inserisci due lati uguali per istanziare un quadrato"); 
+        }
         else{
-            this.lato = lato;
-        }  
+            this.lato = lato1;
+        }
     }
 
     public double getPerimetro(){
